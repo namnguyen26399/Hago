@@ -1,0 +1,117 @@
+*{
+    margin: 0px auto;
+    padding: 0px;
+}
+#container{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(51, 51, 240);
+}
+#top{
+    height: 70px;
+    width: 100%;
+}
+.input{
+    margin-right: 00px;
+}
+.floatleft{
+    float: left;
+    display: block;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: block;
+  }
+#logo{
+    padding: 5px;
+    padding-left: 20px;
+    height: 60px;
+    width: 150px;
+}
+#login_form{
+    
+    position: absolute;
+    right: 600px;
+    top: 5px;
+}
+.input{
+    padding-top: 2px;
+    width: 250px;
+    border: 1px solid black;
+    position: absolute;
+    right: 0px;
+    border-radius: 3px;
+}
+.bntok{
+    position: absolute;
+    right: 630px;
+    top: 45px;
+    width: 100px;
+    height: 30px;
+    border-radius: 3px;
+}
+.bntok2{
+    position: absolute;
+    right: 560px;
+    top: 45px;
+    width: 100px;
+    height: 30px;
+    border-radius: 3px;
+}
+#logoname{
+    animation-name: text;
+    animation-duration: 10s;
+    position: absolute;
+    top: 10px;
+    left: 200px;
+    font-size: 45px;
+    color: red;
+}
+@keyframes text{
+    0%   {color: red;}
+  5%  {color: yellow;}
+  10%  {color: rgb(0, 255, 221);}
+  15% {color: green;}
+  20%   {color: red;}
+  25%  {color: yellow;}
+  30%  {color: rgb(0, 255, 221);}
+  35% {color: green;}
+  40%   {color: red;}
+  45%  {color: yellow;}
+  50%  {color: rgb(0, 255, 221);}
+  55% {color: green;}
+}
+
+#bot{
+ 
+    height: 620px;
+    width: 100%;
+    background-image: url(./background.jpg)
+}
+#dangky{
+    position: absolute;
+    left: 50%;
+    font-size: 23px;
+    top: 15%;
+}
+.inputdangky{
+    width: 250px;
+    height: 20px;
+    border-radius: 3px;
+}
+#check{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 23%;
+    left: 10px     ;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+}
+.checkcapcha{
+
+    position: absolute;
+    top: 23%;
+    left: 50px;    
+    font-size: 23px;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+}
